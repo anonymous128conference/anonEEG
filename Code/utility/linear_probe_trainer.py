@@ -7,7 +7,7 @@ from torch.utils.data import TensorDataset, DataLoader
 from sklearn.metrics import roc_auc_score, balanced_accuracy_score, f1_score, cohen_kappa_score
 import os
 
-from mamba_ssm import Mamba2 # JH download 11/14/2024, https://github.com/state-spaces/mamba (Complie with Numpy 1.x only, also required)
+from mamba_ssm import Mamba2 
 
 def train_mlp_for_linear_probe(
     train_features,    
